@@ -1,2 +1,6 @@
 # Predicting-customer-loan-defaults-for-a-bank
-We developed a decision tool for a bank to predict loan repayment. We balanced the data, cleaned it, and chose Random Forest as the best classification model.
+This project was conducted as part of an information system course, focusing on a dataset comprising various client attributes who have obtained loans from a bank. For each client, their loan repayment status is recorded as either "Solvable" or "Non-solvable." Some examples of these client attributes include credit history, savings account, and age. The primary objective of this project is to create a decision support tool for the bank. This tool aims to predict whether a new client, providing their corresponding attribute information, is likely to repay the loan. Based on this prediction, the banker can make an informed decision regarding loan approval.
+
+To achieve this goal, we initiated the project by analyzing the dataset. During our analysis, we identified an imbalance in the database, which could potentially impact the accuracy of our classification model. Consequently, we addressed this issue by employing the SMOTE-NC technique to balance the data. After cleaning the dataset and addressing missing values, we implemented two classification models: Logistic Regression and Random Forest.
+
+Upon comparing the performance of these two models, we determined that the Random Forest model was the most suitable choice for this classification task.
